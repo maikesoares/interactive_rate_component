@@ -1,3 +1,8 @@
 :root {
   --blue-dark: #131519;
+  --blue-medium:#1D242F;
+  --blue-light: #272D3D;
+  --white: #fff;
+  --grafite: #969FAD;
+  --orange: hsl(25, 97%, 53%);
 }

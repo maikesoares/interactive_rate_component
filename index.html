@@ -17,14 +17,14 @@
     <title>Interactive rating component</title>
   </head>
   <body>
-    <main class="card">
+    <main class="card ativo">
       <img src="./src/images/icon-star.svg" alt="Icon star" />
       <h1>How did we do?</h1>
       <p>
         Please let us know how we did with your support request. All feedback is
         appreciated to hep us improve our offering!
       </p>
-      <div>
+      <div class="buttons">
         <button>1</button>
         <button>2</button>
         <button>3</button>
@@ -32,21 +32,23 @@
         <button>5</button>
       </div>
       <form>
-        <button type="submit">Subimit</button>
+        <button type="submit" class="btn-submit">Subimit</button>
       </form>
     </main>
 
-    <section>
+    <section class="thank-you">
       <img
         src="./src/images/illustration-thank-you.svg"
         alt="illustration-thank-you"
       />
-      <span>you selected 4 out of 5</span>
+      <span>You selected 4 out of 5</span>
       <h3>Thank you!</h3>
       <p>
         We appreciate you taking the time to give a rating. If you ever nedd
         more support, don't hesitate to get in touch!
       </p>
     </section>
+
+    <script src="./src/js/index.js"></script>
   </body>
 </html>
